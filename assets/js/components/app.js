@@ -260,6 +260,33 @@ class App extends React.Component {
                     </Select>
                 </div>
 
+                <div className="col-sm-12">
+                    <TextField
+                        selected={this.state.selectedDateFrom}
+                        onChange={this.handleStartDateOnChange}
+                        dateFormat="YYYY-MM-DD"
+                        id="date"
+                        label="Birthday"
+                        type="date"
+                        defaultValue="2019-11-29"
+                        InputLabelProps={{
+                            shrink: true,
+                        }}
+                    />
+                    <TextField
+                        selected={this.state.selectedDateTo}
+                        onChange={this.handleEndDateOnChange}
+                        dateFormat="YYYY-MM-DD"
+                        id="date"
+                        label="Birthday"
+                        type="date"
+                        defaultValue="2019-11-30"
+                        InputLabelProps={{
+                            shrink: true,
+                        }}
+                    />
+                </div>
+
 
                 <div className="row">
                     <div className="col-sm-6">
