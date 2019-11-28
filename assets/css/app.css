@@ -1,1 +1,22 @@
-@import "~bootstrap/scss/bootstrap";
+#parent {
+    text-align:center;
+    background-color:blue;
+    height:400px;
+    width:600px;
+}
+.block {
+    height:100px;
+    width:200px;
+    text-align:left;
+}
+.center {
+    margin:auto;
+}
+.left {
+    margin:auto auto auto 0;
+    background-color:red;
+}
+.right {
+    margin:auto 0 auto auto;
+    background-color:yellow;
+}
