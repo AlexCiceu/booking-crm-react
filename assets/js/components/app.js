@@ -199,7 +199,8 @@ class App extends React.Component {
                     <Select
                         className="col-sm-3"
                         labelId="demo-mutiple-name-label"
-                        id="demo-mutiple-name"
+                        id="selectedCountry"
+                        name="selectedCountry"
                         onChange={this.handleCountriesSelectChange}
                         input={<Input/>}>
                         {
@@ -220,7 +221,8 @@ class App extends React.Component {
                     <Select
                         className="col-sm-3"
                         labelId="demo-mutiple-name-label"
-                        id="demo-mutiple-name"
+                        id="selectedLocation"
+                        name="selectedLocation"
                         onChange={this.handleLocationSelectChange}
                         input={<Input/>}>
                         {
@@ -241,7 +243,8 @@ class App extends React.Component {
                     <Select
                         className="col-sm-3"
                         labelId="demo-mutiple-name-label"
-                        id="demo-mutiple-name"
+                        id="selectedResortName"
+                        name="selectedResortName"
                         onChange={this.handleResortNameSelectChange}
                         input={<Input/>}>
                         {
